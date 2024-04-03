@@ -1,6 +1,6 @@
 async function fetchData() {
   try {
-    const response = await fetch("./../json/news.json");
+    const response = await fetch("https://raw.githubusercontent.com/ZhigarMosta/test/main/json/news.json");
     return await response.json();
   } catch (error) {
     console.error("Ошибка загрузки файла:", error);
