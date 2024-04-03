@@ -1,6 +1,6 @@
 async function fetchData() {
   try {
-    const response = await fetch("../json/services.json");
+    const response = await fetch("./../json/services.json");
     return await response.json();
   } catch (error) {
     console.error("Ошибка загрузки файла:", error);
