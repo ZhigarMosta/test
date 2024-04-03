@@ -2,7 +2,7 @@ let jsonData;
 
 async function fetchData() {
   try {
-    const response = await fetch("../json/search.json");
+    const response = await fetch("./../json/search.json");
     return await response.json();
   } catch (error) {
     console.error("Ошибка загрузки файла:", error);
