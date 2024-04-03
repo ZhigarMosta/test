@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main</title>
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="./js/Search.js" defer></script>
+    <script type="module" src="./js/services.js" defer></script>
+    <script type="module" src="./js/news.js" defer></script>
+  </head>
+  <body>
+    <header class="header_container">
+      <div class="header_wrapper">
+        <img src="./img/header/logo.svg" alt="logo" />
+        <div class="header_wrapper-input">
+          <img src="./img/header/Search.svg" alt="search" class="" />
+          <input type="text" placeholder="Поиск" class="header_input" />
+
+          <div class="case_list none"></div>
+        </div>
+        <button class="header_container-shape">
+          <img src="./img/header/Shape.svg" alt="shape" />
+        </button>
+      </div>
+    </header>
+
+    <main class="main_container">
+      <div class="emergency_container">
+        <div class="emergency">
+          <div class="emergency_container-img-text">
+            <img
+              src="./img/emergency/Male_Lawyer.svg"
+              alt="Lawyer"
+              class="emergency_img_Lawyer"
+            />
+            <div class="emergency_text-container">
+              <h2>Нужна срочная помощь?</h2>
+              <h4 class="emergency_p">
+                Мы на связи в любое время, чтобы помочь вам!
+              </h4>
+            </div>
+          </div>
+          <button class="emergency_btn">
+            <p class="emergency-btn-text">Позвонить нам</p>
+            <img src="./img/emergency/Call.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="LastSituations">
+        <h3>Ситуации наших последних клиентов</h3>
+        <marquee>
+          <div class="LastSituations_wrapper-card">
+            <div class="LastSituations_containerCard-case1">
+              <div class="LastSituations_container-text">
+                <p class="LastSituations_card-title">Развод</p>
+                <p class="LastSituations_card-text">с нами это легко</p>
+              </div>
+            </div>
+            <div class="LastSituations_containerCard-case2">
+              <div class="LastSituations_container-text">
+                <p class="LastSituations_card-title">Банкротство</p>
+                <p class="LastSituations_card-text">с нами это легко</p>
+              </div>
+            </div>
+            <div class="LastSituations_containerCard-case1">
+              <div class="LastSituations_container-text">
+                <p class="LastSituations_card-title">Развод</p>
+                <p class="LastSituations_card-text">с нами это легко</p>
+              </div>
+            </div>
+          </div>
+        </marquee>
+      </div>
+      <div class="consultation_wrapper">
+        <div class="consultation_container">
+          <div class="center">
+            <div class="consultation_container-img">
+              <img
+                src="./img/consultation/Illustration.svg"
+                alt="Illustration"
+                class="Illustration"
+              />
+            </div>
+          </div>
+          <div class="consultation_text-container">
+            <p class="consultation_title">
+              Мы всегда на связи и готовы помочь вам
+            </p>
+            <p class="consultation_text">Готовы проконсультировать вас</p>
+          </div>
+          <div class="center">
+            <button class="consultation_btn">
+              <p class="consultation_btn-text">Мне нужна консультация</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <h2>Наши услуги</h2>
+        <div class="services_wrapper-card"></div>
+      </div>
+      <div class="news">
+        <h2>Новости</h2>
+        <div class="news_wrapper-card"></div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
